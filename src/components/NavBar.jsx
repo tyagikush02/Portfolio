@@ -50,7 +50,7 @@ function NavBar(){
             <div className="social-icon">
                 <a href="https://www.linkedin.com/in/kush-tyagi-7637a5240/"><img src={navIcon1} alt="Linkedin"/></a>
                 <a href="https://github.com/tyagikush02"><img src={navIcon2} alt="github"/></a>
-                <a href=""><img src={navIcon3} alt="Insta"/></a>
+                <a href="https://www.instagram.com/tyagikush02?igsh=dWNtdW85dmZqaWVs"><img src={navIcon3} alt="Insta"/></a>
             </div>
             <button className="vvd" onClick={()=> console.log('connect')}><span>Let's Connect</span></button>
           </span>
