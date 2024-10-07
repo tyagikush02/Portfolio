@@ -8,7 +8,7 @@ export default function Contact(){
         console.log("connected");
     };
     return(
-        <section>
+        <section id="connect">
             <Container>
                 <Row>
                     <Col md={6}>

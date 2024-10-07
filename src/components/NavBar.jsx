@@ -52,7 +52,7 @@ function NavBar(){
                 <a href="https://github.com/tyagikush02"><img src={navIcon2} alt="github"/></a>
                 <a href="https://www.instagram.com/tyagikush02?igsh=dWNtdW85dmZqaWVs"><img src={navIcon3} alt="Insta"/></a>
             </div>
-            <button className="vvd" onClick={()=> console.log('connect')}><span>Let's Connect</span></button>
+            <button className="vvd" onClick={()=> console.log('connect')}><Nav.Link href="#connect"className={activeLink==='connect' ? 'active navbar-link' : 'navbar-link'}onClick={()=> onUpdateActiveLink('connect')}><span>Let's Connect</span></Nav.Link></button>
           </span>
         </Navbar.Collapse>
       </Container>

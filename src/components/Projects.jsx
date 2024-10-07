@@ -32,7 +32,7 @@ export default function Projects(){
         },
     ];
     return(
-        <section>
+        <section id="projects">
             <Container>
                 <Row>
                     <Col>
